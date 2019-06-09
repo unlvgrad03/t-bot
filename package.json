@@ -1,0 +1,26 @@
+{
+  "name": "t-bot",
+  "version": "1.0.0",
+  "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.\r     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'\r     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--, \r     '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.\r      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'\r     -----------------------------------------------------------------",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "mongoose": "^5.5.8",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlvgrad03/t-bot.git"
+  },
+  "author": "kh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlvgrad03/t-bot/issues"
+  },
+  "homepage": "https://github.com/unlvgrad03/t-bot#readme"
+}
