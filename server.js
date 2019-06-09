@@ -23,7 +23,7 @@ client.stream('statuses/filter',
   function (stream) {
     stream.on('data', function (tweet) {
       console.log('I just got a tweet from: ' + tweet.user.name);
-      if (tweet.in_reply_to_user_id === null) {
+      if (tweet.in_reply_to_user_id === null && in_reply_to_status_id === null) {
         console.log(`Retweet - reply to null ${tweet.id}`);
         //fs.appendFileSync(`./${tweet.id}.json`, JSON.stringify(tweet))
         client.post('statuses/retweet/' + tweet.id_str, function (error, reTweet, callback) {
